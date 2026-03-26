@@ -3,4 +3,23 @@
     --secondary: #FF8811;
     --accent: #00487C;
     --background: #e8f1f2;
+    --padding: 1rem;
+}
+
+html, body {
+    margin: 0;
+    background-color: var(--background) !important;
+}
+
+nav {
+    display: flex;
+    padding: var(--padding);
+    gap: 2rem;
+    h1 {
+        font-size: 1.6rem;
+    }
+    a {
+        text-decoration: none;
+        color: var(--primary);
+    }
 }

@@ -3,6 +3,8 @@
     --secondary: #FF8811;
     --accent: #00487C;
     --background: #e8f1f2;
+    --accent-background: #dae9f1;
+    --accent-dark-background: #1d2b35;
     --padding: 1rem;
 }
 
@@ -14,12 +16,39 @@ html, body {
 nav {
     display: flex;
     padding: var(--padding);
+    background-color: var(--accent-background);
+    border-radius: 0 0 10px 10px;
     gap: 2rem;
+    img {
+        margin: 0 1rem;
+    }
     h1 {
         font-size: 1.6rem;
+        margin: 0;
     }
     a {
+        padding-top: 6px;
         text-decoration: none;
         color: var(--primary);
+        transition: 0.2s;
+        &:hover {
+            border-bottom: 5px solid var(--accent);
+        }
+    }
+}
+footer {
+    border-radius: 10px 10px 0 0;
+    color: var(--background);
+    background-color: var(--accent-dark-background);
+    display: flex;
+    padding: 2rem 8rem;
+    .odkazy-block {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    h4 {
+        font-size: 1rem;
     }
 }

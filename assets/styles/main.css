@@ -1,13 +1,3 @@
-:root {
-    --primary: #0496FF;
-    --secondary: #FF8811;
-    --accent: #00487C;
-    --background: #e8f1f2;
-    --accent-background: #dae9f1;
-    --accent-dark-background: #1d2b35;
-    --padding: 1rem;
-}
-
 html, body {
     margin: 0;
     background-color: var(--background) !important;
@@ -26,29 +16,84 @@ nav {
         font-size: 1.6rem;
         margin: 0;
     }
-    a {
-        padding-top: 6px;
-        text-decoration: none;
-        color: var(--primary);
-        transition: 0.2s;
-        &:hover {
-            border-bottom: 5px solid var(--accent);
+    .links {
+        a {
+            padding-top: 6px;
+            text-decoration: none;
+            color: var(--primary);
+            transition: 0.2s;
+            &:hover {
+                border-bottom: 5px solid var(--accent);
+            }
         }
     }
 }
 footer {
+    overflow: hidden;
+    position: relative;
     border-radius: 10px 10px 0 0;
     color: var(--background);
     background-color: var(--accent-dark-background);
     display: flex;
     padding: 2rem 8rem;
     .odkazy-block {
+        position: relative;
+        z-index: 20;
         text-align: left;
         display: flex;
         flex-direction: column;
         flex: 1;
+        a {
+            color: #b4bed1;
+            font-weight: lighter;
+            text-decoration: none;
+            transition: var(--transition);
+            &:hover {
+                color: var(--secondary);
+                text-decoration: underline;
+            }
+        }
     }
     h4 {
         font-size: 1rem;
     }
+}
+
+main {
+    section {
+        padding-bottom: 5rem;
+    }
+}
+
+.bgmask {
+    width: 55%;
+    top: 0;
+    opacity: 0.5;
+    right: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.trusted-by {
+    display: flex;
+    gap: 4rem;
+    animation: roll-trust 35s linear infinite;
+    white-space: nowrap;
+}
+
+@keyframes roll-trust {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-2310px);
+    }
+}
+
+.trusted-by-block {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100dvw;
+    mask-image: linear-gradient(90deg, transparent, black 15%, black 85%,transparent);
 }

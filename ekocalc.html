@@ -2,47 +2,104 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/styles/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/styles/root.css">
+    <link rel="stylesheet" href="/assets/styles/main.css">
     <title>Synapse | EkoCalc</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
-<body>
-    <main>
-        <div class="position-relative overflow-hidden text-center">
-            <div class="col-md-6 p-lg-5 mx-auto my-5">
-                <h1 class="display-3 fw-bold">EkoCalc 1</h1>
-                <h3 class="fw-normal text-muted mb-3">
-                    Rychlá ekonomická kalkulačka pro každého
-                </h3>
-                <div class="d-flex gap-3 justify-content-center lead fw-normal">
-                    <a class="icon-link" href="#">
-                        Zjistit více
-                    </a>
-                    <a class="icon-link" href="#">
-                        Ceny
-                    </a>
+<body class="d-flex h-100">
+
+    <div class="container">
+
+        <header class="mb-auto">
+            <nav class="justify-content-between">
+                <a class="d-flex align-items-center gap-3 text-decoration-none text-black" href="/index.html">
+                    <img src="assets/vector/ss.svg" width="30" alt="LOGO"/>
+                    <h1>Synapse Systems</h1>
+                </a>
+                <div class="d-flex gap-4 links">
+                    <a href="index.html" class="text-center">Produkty</a>
+                    <a href="index.html" class="text-center">Obchod</a>
+                    <a href="index.html" class="text-center">OpenSource</a>
+                    <a href="index.html" class="text-center">O nás</a>
                 </div>
-                <div>
-                    <h4>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum esse aliquam, expedita voluptatem
-                        deserunt, mollitia ipsum temporibus excepturi amet est at veniam culpa aperiam repellendus,
-                        blanditiis dolor iste in eos.
-                    </h4>
+            </nav>
+        </header>
+
+        <main>
+            <div class="position-relative overflow-hidden text-center">
+                <div class="col-md-6 p-lg-5 mx-auto my-5">
+                    <h1 class="display-3 fw-bold">EkoCalc 1</h1>
+                    <h3 class="fw-normal text-muted mb-3">
+                        Rychlá ekonomická kalkulačka pro každého
+                    </h3>
+                    <div class="d-flex gap-3 justify-content-center lead fw-normal">
+                        <a class="icon-link" href="#">
+                            Zjistit více
+                        </a>
+                        <a class="icon-link" href="#">
+                            Ceny
+                        </a>
+                    </div>
+                    <div>
+                        <h4>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum esse aliquam, expedita voluptatem
+                            deserunt, mollitia ipsum temporibus excepturi amet est at veniam culpa aperiam repellendus,
+                            blanditiis dolor iste in eos.
+                        </h4>
+                    </div>
                 </div>
+                <div class="product-device shadow-sm d-none d-md-block"></div>
+                <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
             </div>
-            <div class="product-device shadow-sm d-none d-md-block"></div>
-            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-        </div>
-        <div class="img_1">
-            <img src="illustration-gallery-icon_53876-27002.avif" alt="" width="1000">
-        </div>
-        <div class="img_2">
-            <img src="illustration-gallery-icon_53876-27002.avif" alt="">
-        </div>
-    </main>
+            <div class="img_1">
+                <img src="/assets/images/illustration-gallery-icon_53876-27002.avif" alt="" width="1000">
+            </div>
+            <div class="img_2">
+                <img src="/assets/images/illustration-gallery-icon_53876-27002.avif" alt="">
+            </div>
+        </main>
+
+        <footer>
+
+            <div class="odkazy-block">
+                <h4>Projekty</h4>
+                <a href="/ekocalc.html">EkoCalc</a>
+                <a href="/ekocalc.html">SynapseSklad</a>
+                <a href="/ekocalc.html">CashFlow</a>
+                <a href="/ekocalc.html">Zamestnaci</a>
+                <a href="/ekocalc.html">Access Professional</a>
+                <a href="/ekocalc.html">B2B (Busisness to Busisness)</a>
+                <a href="/ekocalc.html">RS3 (Rezervační systém)</a>
+                <a href="/ekocalc.html">FS2 (Fakturační systém)</a>
+            </div>
+            <div class="odkazy-block">
+                <h4>OpenSource Projekty</h4>
+                <a href="https://github.com/notonecz/hass-golang-api">HomeAssistant Golang SDK</a>
+                <a href="https://github.com/notonecz/hass-golang-api">Crypto Session (Golang)</a>
+                <a href="https://github.com/notonecz/hass-golang-api">Messager (Rust, Golang)</a>
+            </div>
+            <div class="odkazy-block">
+                <h4>Kontakt</h4>
+                <a href="tel:+420603804905">+420 603 804 905</a>
+                <a href="mailto:info@synapse-systems.eu">info@synapse-systems.eu</a>
+                <br>
+                <span style="font-weight: lighter">
+                    IČO: 12345678<br>
+                    DIČ: CZ12345678<br>
+                    Sídlo: Čs. odboje 670, 518 01 Dobruška
+                </span>
+            </div>
+
+            <img class="bgmask" src="assets/vector/bg-mask.svg" width="30" alt="mask"/>
+
+        </footer>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>

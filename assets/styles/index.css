@@ -1,0 +1,62 @@
+.slogan {
+    margin: 16rem 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.text-grad {
+    background: -webkit-linear-gradient(left, var(--primary), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.socialni-sit {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+    color: var(--accent);
+    transition: var(--transition);
+    text-decoration: none;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    &:hover {
+        color: var(--secondary-dark);
+    }
+}
+
+.recenze {
+    min-height: 200px;
+    background-color: rgba(48, 106, 243, 0.07);
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+    padding: 1.5rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.03);
+}
+
+.recenze-profile {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.duvod {
+    i {
+        font-size: 3rem;
+    }
+}
+
+.oceneni {
+    padding: 2rem;
+    background: linear-gradient(-45deg, rgba(0, 72, 124, 0.35), #421d02);
+    color: white;
+    border-radius: 1rem;
+}
+
+.ecosystem-block {
+    display: flex;
+    flex-direction: column;
+    background: conic-gradient(from 45deg at 30% -8%, rgba(0, 72, 124, 0.35), #1d2b35 180deg);
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}

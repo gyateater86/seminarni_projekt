@@ -162,6 +162,9 @@ main {
         color: black;
         cursor: pointer;
         text-decoration: none;
+        a {
+            display: inherit;
+        }
     }
     li:hover, a:hover {
         color: var(--primary);

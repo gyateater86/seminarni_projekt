@@ -93,6 +93,7 @@ main {
 .trusted-by-block {
     overflow: hidden;
     position: absolute;
+    z-index: 100;
     left: 0;
     width: 100dvw;
     mask-image: linear-gradient(90deg, transparent, black 15%, black 85%,transparent);

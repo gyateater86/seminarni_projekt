@@ -103,10 +103,15 @@ main {
 }
 
 .header-image {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     z-index: 0;
+}
+
+.header-image-box {
+    max-width: 100dvw;
+    position: absolute;
 }
 
 .menu {
@@ -146,8 +151,8 @@ main {
         opacity: 0.6;
     }
     &:hover {
-        background-size: auto 150%;
-        background-position: right center;
+        background-size: auto 170%;
+        background-position: right 10%;
         i {
             opacity: 1;
         }
@@ -179,4 +184,13 @@ main {
 }
 .dropdown {
     align-self: center;
+    button {
+        max-height: 36px;
+    }
+}
+
+@media (max-width: 470px) {
+    .links {
+        overflow-x: scroll;
+    }
 }

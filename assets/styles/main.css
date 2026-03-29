@@ -36,7 +36,9 @@ footer {
     color: var(--background);
     background-color: var(--accent-dark-background);
     display: flex;
-    padding: 2rem 8rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem;
     .odkazy-block {
         position: relative;
         z-index: 20;
@@ -129,12 +131,12 @@ main {
 }
 
 .l-product {
-    height: 170px;
+    min-height: 170px;
     background-size: cover;
     background-position: bottom center;
     cursor: pointer;
     flex-direction: column;
-    padding: 2rem;
+    padding-left: 3rem !important;
     i {
         transition: opacity .1s ease-in-out;
     }
@@ -164,4 +166,7 @@ main {
     li:hover, a:hover {
         color: var(--primary);
     }
+}
+.dropdown {
+    align-self: center;
 }

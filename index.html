@@ -17,12 +17,12 @@
 
     <div class="container h-100 d-flex justify-content-between flex-column z-2">
         <header class="mb-auto">
-            <nav class="justify-content-between position-relative">
+            <nav class="justify-content-between gap-0 position-relative">
                 <a class="d-flex align-items-center gap-3 text-decoration-none text-black" href="/index.html">
                     <img src="assets/vector/ss.svg" width="30" alt="LOGO"/>
-                    <h1>Synapse Systems</h1>
+                    <h1 class="d-lg-block d-none">Synapse Systems</h1>
                 </a>
-                <div class="d-flex gap-4 links">
+                <div class="d-flex gap-md-4 links">
                     <div class="dropdown dropdown-mega">
                         <button type="button"
                                 class="btn btn-link"
@@ -34,24 +34,26 @@
 
                         <div class="dropdown-menu">
 
-                            <div class="row">
-                                <div class="col-3">
+                            <div class="row row-cols-1 row-cols-md-3">
+                                <div class="col-md-4 col row row-cols-1 p-0">
                                     <div style="
-                                        filter: hue-rotate(310deg);
-                                        background-image: url('assets/vector/header.svg');"
-                                         class="l-product d-flex justify-content-center">
+                                            filter: hue-rotate(310deg);
+                                            background-image: url('assets/vector/header.svg');"
+                                         class="l-product d-flex justify-content-center col"
+                                    >
                                         <h4 class="h4">Synapse Server</h4>
                                         <i class="bi bi-arrow-right-circle fs-5"></i>
                                     </div>
                                     <div style="
-                                        background-image: url('assets/images/bg_header_desktop.jpg');"
-                                         class="l-product d-flex justify-content-center">
+                                            background-image: url('assets/images/bg_header_desktop.jpg');"
+                                         class="l-product d-flex justify-content-center col"
+                                    >
                                         <h4 class="h4 text-white">Synapse Server<br>PRO</h4>
                                         <i class="bi bi-arrow-right-circle fs-5 text-white"></i>
                                     </div>
                                 </div>
 
-                                <div class="col-9 row-cols-3 row p-4">
+                                <div class="col-md-8 col row-cols-3 row p-4">
                                     <div>
                                         <h5 class="h5">Software</h5>
                                         <ul class="list-group list-group-numbered prod-list">
@@ -169,9 +171,9 @@
 
             <section>
 
-                <div class="row row-cols-2">
+                <div class="row row-cols-1 row-cols-md-2">
 
-                    <div class="col-5 d-flex justify-content-center align-items-center flex-column">
+                    <div class="col d-flex justify-content-center align-items-start align-items-md-center flex-column">
                         <h2>Naše programy běží na všem</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -179,7 +181,7 @@
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </p>
                     </div>
-                    <img class="col-7" src="/assets/images/mockup.png" alt="Mockup"/>
+                    <img class="col align-self-center" style="height: fit-content" src="/assets/images/mockup.png" alt="Mockup"/>
 
                 </div>
 
@@ -187,11 +189,10 @@
 
             <section>
 
-                <div class="row row-cols-2">
+                <div class="row row-cols-1 row-cols-md-2 g-5">
 
-                    <img class="col-6" src="https://dfjx2uxqg3cgi.cloudfront.net/img/photo/218706/218706_00_2x.jpg?20200928143407" alt="Mockup"/>
-                    <div class="col-1"></div>
-                    <div class="col-5 d-flex justify-content-center align-items-center flex-column">
+                    <img class="col align-self-center d-none d-md-block" style="height: fit-content" src="https://dfjx2uxqg3cgi.cloudfront.net/img/photo/218706/218706_00_2x.jpg?20200928143407" alt="Mockup"/>
+                    <div class="col d-flex justify-content-center align-items-start align-items-md-center flex-column">
                         <h2>Připojte se odkudkoliv</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -199,6 +200,7 @@
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </p>
                     </div>
+                    <img class="col align-self-center d-block d-md-none" style="height: fit-content" src="https://dfjx2uxqg3cgi.cloudfront.net/img/photo/218706/218706_00_2x.jpg?20200928143407" alt="Mockup"/>
 
                 </div>
 
@@ -227,7 +229,7 @@
 
                 <h2>Co o nás říkají naši zákazníci?</h2>
 
-                <div class="row row-cols-4">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-3">
                     <div class="col">
                         <div class="recenze">
                             <div class="d-flex gap-3 align-items-center pb-3">
@@ -271,41 +273,38 @@
             <section>
 
                 <h2>Proč my?</h2>
-                <div class="row">
-                    <div class="col-5 duvod">
+                <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2">
+                    <div class="col duvod">
                         <i class="bi bi-building"></i>
                         <h3>Česká firma</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam</p>
                     </div>
-                    <div class="col-2"></div>
-                    <div class="col-5 duvod">
+                    <div class="col duvod">
                         <i class="bi bi-people"></i>
                         <h3>Neomezeně uživatelů</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam</p>
                     </div>
-                    <div class="col-5 duvod">
+                    <div class="col duvod">
                         <i class="bi bi-wifi-off"></i>
                         <h3>Online i Offline provoz</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam</p>
                     </div>
-                    <div class="col-2"></div>
-                    <div class="col-5 duvod">
+                    <div class="col duvod">
                         <i class="bi bi-tag"></i>
                         <h3>Levné</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam</p>
                     </div>
-                    <div class="col-5 duvod">
+                    <div class="col duvod">
                         <i class="bi bi-code-slash"></i>
                         <h3>Otevřené pro vývojáře</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam</p>
                     </div>
-                    <div class="col-2"></div>
-                    <div class="col-5 duvod">
+                    <div class="col duvod">
                         <i class="bi bi-chat-dots"></i>
                         <h3>Podpora</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -323,9 +322,9 @@
 
             </section>
 
-            <section class="row row-cols-2">
+            <section class="row row-cols-1 row-cols-md-2 g-5">
 
-                <div class="col-5">
+                <div class="col">
                     <h3>Posílejte mi novinky z naších produktů</h3>
                     <div class="d-flex mt-3">
                         <label for="email" class="form-label"></label>
@@ -333,8 +332,7 @@
                         <button type="submit" class="btn btn-primary">Odeslat</button>
                     </div>
                 </div>
-                <div class="col-2"></div>
-                <div class="col-4">
+                <div class="col">
                     <h3>Sledujte nás na sociálních sítích</h3>
                     <div class="row row-cols-2">
                         <a class="socialni-sit">
@@ -367,7 +365,7 @@
             </section>
 
         </main>
-        <footer>
+        <footer class="px-md-5 flex-column flex-md-row">
 
             <div class="odkazy-block">
                 <h4>Projekty</h4>

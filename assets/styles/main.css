@@ -121,6 +121,7 @@ main {
 .dropdown-mega .dropdown-menu {
     overflow: hidden !important;
     animation: show 0.15s ease-in-out;
+    box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.41);
     transform-origin: top center;
     padding: 0 !important;
     width: 100% !important;
@@ -133,7 +134,8 @@ main {
 .l-product {
     overflow: hidden;
     min-height: 170px;
-    background-size: 180% 180%;
+    background-size: auto 180%;
+    background-repeat: no-repeat;
     background-position: right top;
     cursor: pointer;
     flex-direction: column;
@@ -144,7 +146,7 @@ main {
         opacity: 0.6;
     }
     &:hover {
-        background-size: 150% 150%;
+        background-size: auto 150%;
         background-position: right center;
         i {
             opacity: 1;

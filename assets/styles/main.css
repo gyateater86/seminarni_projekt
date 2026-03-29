@@ -70,9 +70,9 @@ main {
 
 .bgmask {
     width: 55%;
-    bottom: 0;
+    bottom: -60%;
     opacity: 0.2;
-    right: 0;
+    right: 10%;
     position: absolute;
     z-index: 0;
 }

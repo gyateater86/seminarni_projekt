@@ -6,7 +6,7 @@ html, body {
 nav {
     display: flex;
     padding: var(--padding);
-    background-color: var(--accent-background);
+    background-color: var(--background);
     border-radius: 0 0 10px 10px;
     gap: 2rem;
     img {
@@ -96,4 +96,12 @@ main {
     left: 0;
     width: 100dvw;
     mask-image: linear-gradient(90deg, transparent, black 15%, black 85%,transparent);
+}
+
+.header-image {
+    position: absolute;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }

@@ -141,12 +141,13 @@ main {
     transition: .2s ease-in-out;
     i {
         transition: opacity .1s ease-in-out;
+        opacity: 0.6;
     }
     &:hover {
         background-size: 150% 150%;
         background-position: right center;
         i {
-            opacity: 0.4;
+            opacity: 1;
         }
     }
 }

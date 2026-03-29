@@ -17,16 +17,88 @@
 
     <div class="container h-100 d-flex justify-content-between flex-column z-2">
         <header class="mb-auto">
-            <nav class="justify-content-between">
+            <nav class="justify-content-between position-relative">
                 <a class="d-flex align-items-center gap-3 text-decoration-none text-black" href="/index.html">
                     <img src="assets/vector/ss.svg" width="30" alt="LOGO"/>
                     <h1>Synapse Systems</h1>
                 </a>
                 <div class="d-flex gap-4 links">
-                    <a href="index.html" class="text-center">Produkty</a>
-                    <a href="index.html" class="text-center">Obchod</a>
-                    <a href="index.html" class="text-center">OpenSource</a>
-                    <a href="index.html" class="text-center">O nás</a>
+                    <div class="dropdown dropdown-mega">
+                        <button type="button"
+                                class="btn btn-link"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                                data-bs-auto-close="outside">
+                            Produkty
+                        </button>
+
+                        <div class="dropdown-menu">
+
+                            <div class="row">
+                                <div class="col-3">
+                                    <div style="
+                                        filter: hue-rotate(310deg);
+                                        background-image: url('assets/vector/header.svg');"
+                                         class="l-product d-flex justify-content-center">
+                                        <h4 class="h4">Synapse Server</h4>
+                                        <i class="bi bi-arrow-right-circle fs-5"></i>
+                                    </div>
+                                    <div style="
+                                        background-image: url('assets/images/bg_header_desktop.jpg');"
+                                         class="l-product d-flex justify-content-center">
+                                        <h4 class="h4 text-white">Synapse Server<br>PRO</h4>
+                                        <i class="bi bi-arrow-right-circle fs-5 text-white"></i>
+                                    </div>
+                                </div>
+
+                                <div class="col-9 row-cols-3 row p-4">
+                                    <div>
+                                        <h5 class="h5">Software</h5>
+                                        <ul class="list-group list-group-numbered prod-list">
+                                            <li><a href="ekocalc.html">EkoCalc</a></li>
+                                            <li>SynapseSklad</li>
+                                            <li>CashFlow</li>
+                                            <li>Zamestnaci</li>
+                                            <li>Access Professional</li>
+                                            <li>B2B (Busisness to Busisness)</li>
+                                            <li>RS3 (Rezervační systém)</li>
+                                            <li>FS2 (Fakturační systém)</li>
+                                            <li>HomeAssistant Golang SDK</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h5 class="h5">Hardware</h5>
+                                        <ul class="list-group list-group-numbered prod-list">
+                                            <li>Synapse Point Pro</li>
+                                            <li>Synapse Point 1</li>
+                                            <li>Synapse Point Lite</li>
+                                            <li>Synapse NFC Reader</li>
+                                            <li>Synapse QR Reader</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h5 class="h5">Předplatné</h5>
+                                        <ul class="list-group list-group-numbered prod-list">
+                                            <li>Synapse Full Package</li>
+                                            <li>Synapse Money Package</li>
+                                            <li>Synapse Small Business Package</li>
+                                            <li>Synapse Hotel Package</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-link" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Obchod</button>
+                    </div>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-link" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">OpenSource</button>
+                    </div>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-link" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">O nás</button>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -178,7 +250,7 @@
                         <div class="recenze">
                             <div class="d-flex gap-3 align-items-center pb-3">
                                 <img src="https://www.jetbrains.com/idea/img/testimonial-photos/Hemant_Gaur.png" class="recenze-profile" alt="profile"/>
-                                <h4>Daniel</h4>
+                                <h4>Danyel</h4>
                             </div>
                             <p>Lorem ipsum dolor sit amet</p>
                         </div>

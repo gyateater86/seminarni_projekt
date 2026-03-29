@@ -131,16 +131,20 @@ main {
 }
 
 .l-product {
+    overflow: hidden;
     min-height: 170px;
-    background-size: cover;
-    background-position: bottom center;
+    background-size: 180% 180%;
+    background-position: right top;
     cursor: pointer;
     flex-direction: column;
     padding-left: 3rem !important;
+    transition: .2s ease-in-out;
     i {
         transition: opacity .1s ease-in-out;
     }
     &:hover {
+        background-size: 150% 150%;
+        background-position: right center;
         i {
             opacity: 0.4;
         }

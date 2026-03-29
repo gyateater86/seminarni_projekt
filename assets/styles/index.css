@@ -1,5 +1,5 @@
 .slogan {
-    margin: 16rem 0;
+    margin: 14rem 0;
     font-size: 3rem;
     font-weight: bold;
 }
@@ -32,6 +32,10 @@
     flex-direction: column;
     padding: 1.5rem;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.03);
+    p {
+        color: #323232;
+        font-style: italic;
+    }
 }
 
 .recenze-profile {
@@ -42,6 +46,12 @@
 .duvod {
     i {
         font-size: 3rem;
+        transition: var(--transition) ease-in-out color;
+    }
+    &:hover {
+        i {
+            color: var(--primary);
+        }
     }
 }
 

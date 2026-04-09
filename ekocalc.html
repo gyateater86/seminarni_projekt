@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="/assets/styles/main.css">
     <title>Synapse | EkoCalc</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body class="d-flex h-100">
@@ -16,16 +16,88 @@
     <div class="container">
 
         <header class="mb-auto">
-            <nav class="justify-content-between">
+            <nav class="justify-content-between gap-0 position-relative">
                 <a class="d-flex align-items-center gap-3 text-decoration-none text-black" href="/index.html">
-                    <img src="assets/vector/ss.svg" width="30" alt="LOGO"/>
-                    <h1>Synapse Systems</h1>
+                    <img src="assets/vector/ss.svg" width="30" alt="LOGO" />
+                    <h1 class="d-lg-block d-none">Synapse Systems</h1>
                 </a>
-                <div class="d-flex gap-4 links">
-                    <a href="index.html" class="text-center">Produkty</a>
-                    <a href="index.html" class="text-center">Obchod</a>
-                    <a href="index.html" class="text-center">OpenSource</a>
-                    <a href="index.html" class="text-center">O nás</a>
+                <div class="d-flex gap-md-4 links">
+                    <div class="dropdown dropdown-mega">
+                        <button type="button" class="btn btn-link" data-bs-toggle="dropdown" aria-expanded="false"
+                            data-bs-auto-close="outside">
+                            Produkty
+                        </button>
+
+                        <div class="dropdown-menu">
+
+                            <div class="row row-cols-1 row-cols-md-3 m-0">
+                                <div class="col-md-4 col row row-cols-1 p-0 m-0">
+                                    <div style="
+                                            filter: hue-rotate(310deg);
+                                            background-image: url('assets/vector/header.svg');"
+                                        class="l-product d-flex justify-content-center col m-0">
+                                        <h4 class="h4">Synapse Server</h4>
+                                        <i class="bi bi-arrow-right-circle fs-5"></i>
+                                    </div>
+                                    <div style="
+                                            background-image: url('assets/images/bg_header_desktop.jpg');"
+                                        class="l-product bg-black d-flex justify-content-center col m-0">
+                                        <h4 class="h4 text-white">Synapse PRO Server</h4>
+                                        <i class="bi bi-arrow-right-circle fs-5 text-white"></i>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-8 col row-cols-1 row-cols-sm-3 gy-sm-0 gy-4 p-4 me-auto ms-auto row">
+                                    <div>
+                                        <h5 class="h5">Software</h5>
+                                        <ul class="list-group list-group-numbered prod-list">
+                                            <li><a href="ekocalc.html">EkoCalc</a></li>
+                                            <li>SynapseSklad</li>
+                                            <li>CashFlow</li>
+                                            <li>Zamestnaci</li>
+                                            <li>Access Professional</li>
+                                            <li>B2B (Busisness to Busisness)</li>
+                                            <li>RS3 (Rezervační systém)</li>
+                                            <li>FS2 (Fakturační systém)</li>
+                                            <li>HomeAssistant Golang SDK</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h5 class="h5">Hardware</h5>
+                                        <ul class="list-group list-group-numbered prod-list">
+                                            <li>Synapse Point Pro</li>
+                                            <li>Synapse Point 1</li>
+                                            <li>Synapse Point Lite</li>
+                                            <li>Synapse NFC Reader</li>
+                                            <li>Synapse QR Reader</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h5 class="h5">Předplatné</h5>
+                                        <ul class="list-group list-group-numbered prod-list">
+                                            <li>Synapse Full Package</li>
+                                            <li>Synapse Money Package</li>
+                                            <li>Synapse Small Business Package</li>
+                                            <li>Synapse Hotel Package</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-link" data-bs-toggle="dropdown" aria-expanded="false"
+                            data-bs-auto-close="outside">Obchod</button>
+                    </div>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-link" data-bs-toggle="dropdown" aria-expanded="false"
+                            data-bs-auto-close="outside">OpenSource</button>
+                    </div>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-link" data-bs-toggle="dropdown" aria-expanded="false"
+                            data-bs-auto-close="outside">O&nbsp;nás</button>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -47,7 +119,8 @@
                     </div>
                     <div>
                         <h4>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum esse aliquam, expedita voluptatem
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum esse aliquam, expedita
+                            voluptatem
                             deserunt, mollitia ipsum temporibus excepturi amet est at veniam culpa aperiam repellendus,
                             blanditiis dolor iste in eos.
                         </h4>
@@ -64,7 +137,7 @@
             </div>
         </main>
 
-        <footer>
+        <footer class="px-md-5 flex-column flex-md-row gap-3">
 
             <div class="odkazy-block">
                 <h4>Projekty</h4>
@@ -95,7 +168,7 @@
                 </span>
             </div>
 
-            <img class="bgmask" src="assets/vector/bg-mask.svg" width="30" alt="mask"/>
+            <img class="bgmask" src="assets/vector/ss-light.svg" width="30" alt="mask" />
 
         </footer>
     </div>

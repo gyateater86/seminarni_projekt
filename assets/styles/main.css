@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     background-color: var(--background) !important;
 }
@@ -9,13 +10,16 @@ nav {
     background-color: var(--background);
     border-radius: 0 0 10px 10px;
     gap: 2rem;
+
     img {
         margin: 0 1rem;
     }
+
     h1 {
         font-size: 1.6rem;
         margin: 0;
     }
+
     .links {
         button {
             background: none;
@@ -23,12 +27,14 @@ nav {
             text-decoration: none;
             color: var(--primary);
             transition: 0.2s;
+
             &:hover {
                 color: var(--accent);
             }
         }
     }
 }
+
 footer {
     overflow: hidden;
     position: relative;
@@ -39,6 +45,7 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 2rem;
+
     .odkazy-block {
         position: relative;
         z-index: 20;
@@ -46,17 +53,20 @@ footer {
         display: flex;
         flex-direction: column;
         flex: 1;
+
         a {
             color: #b4bed1;
             font-weight: lighter;
             text-decoration: none;
             transition: var(--transition);
+
             &:hover {
                 color: var(--secondary);
                 text-decoration: underline;
             }
         }
     }
+
     h4 {
         font-size: 1rem;
     }
@@ -88,6 +98,7 @@ main {
     from {
         transform: translateX(0);
     }
+
     to {
         transform: translateX(-2310px);
     }
@@ -99,7 +110,7 @@ main {
     z-index: 100;
     left: 0;
     width: 100dvw;
-    mask-image: linear-gradient(90deg, transparent, black 15%, black 85%,transparent);
+    mask-image: linear-gradient(90deg, transparent, black 15%, black 85%, transparent);
 }
 
 .menu {
@@ -134,13 +145,16 @@ main {
     flex-direction: column;
     padding-left: 3rem !important;
     transition: .2s ease-in-out;
+
     i {
         transition: opacity .1s ease-in-out;
         opacity: 0.6;
     }
+
     &:hover {
         background-size: auto 170%;
         background-position: right 10%;
+
         i {
             opacity: 1;
         }
@@ -151,27 +165,35 @@ main {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
 
 .prod-list {
-    li, a {
+
+    li,
+    a {
         transition: ease 50ms;
         color: black;
         cursor: pointer;
         text-decoration: none;
+
         a {
             display: inherit;
         }
     }
-    li:hover, a:hover {
+
+    li:hover,
+    a:hover {
         color: var(--primary);
     }
 }
+
 .dropdown {
     align-self: center;
+
     button {
         max-height: 36px;
     }
@@ -181,4 +203,24 @@ main {
     .links {
         overflow-x: scroll;
     }
+}
+
+.recenze {
+    min-height: 200px;
+    background-color: rgba(48, 106, 243, 0.07);
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+    padding: 1.5rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.03);
+
+    p {
+        color: #323232;
+        font-style: italic;
+    }
+}
+
+.recenze-profile {
+    border-radius: 50%;
+    width: 50px;
 }

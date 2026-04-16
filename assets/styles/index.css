@@ -19,35 +19,20 @@
     text-decoration: none;
     margin: 0.5rem 0;
     cursor: pointer;
+
     &:hover {
         color: var(--secondary-dark);
     }
 }
 
-.recenze {
-    min-height: 200px;
-    background-color: rgba(48, 106, 243, 0.07);
-    display: flex;
-    border-radius: 1rem;
-    flex-direction: column;
-    padding: 1.5rem;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.03);
-    p {
-        color: #323232;
-        font-style: italic;
-    }
-}
 
-.recenze-profile {
-    border-radius: 50%;
-    width: 50px;
-}
 
 .duvod {
     i {
         font-size: 3rem;
         transition: var(--transition) ease-in-out color;
     }
+
     &:hover {
         i {
             color: var(--primary);

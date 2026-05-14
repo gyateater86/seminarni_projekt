@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "EkoCalc 1",
+        "description": "Rychlá ekonomická kalkulačka pro každého",
+        "price": 199.99,
+        "image": "assets/images/ekcalc1.png"
+    },
+    {
+        "id": 2,
+        "name": "SynapseSklad",
+        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
+        "price": 299.99,
+        "image": "assets/images/ekcalc2.png"
+    },
+    {
+        "id": 3,
+        "name": "CashFlow",
+        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
+        "price": 299.99,
+        "image": "assets/images/ekcalc2.png"
+    },
+    {
+        "id": 4,
+        "name": "Zamestnaci",
+        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
+        "price": 299.99,
+        "image": "assets/images/ekcalc2.png"
+    },
+    {
+        "id": 5,
+        "name": "Access Professional",
+        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
+        "price": 299.99,
+        "image": "assets/images/ekcalc2.png"
+    },
+    {
+        "id": 6,
+        "name": "B2B",
+        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
+        "price": 299.99,
+        "image": "assets/images/ekcalc2.png"
+    },
+    {
+        "id": 7,
+        "name": "RS3",
+        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
+        "price": 299.99,
+        "image": "assets/images/ekcalc2.png"
+    },
+    {
+        "id": 8,
+        "name": "FS2",
+        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
+        "price": 299.99,
+        "image": "assets/images/ekcalc2.png"
+    },
+    {
+        "id": 9,
+        "name": "HomeAssistant Golang SDK",
+        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
+        "price": 299.99,
+        "image": "assets/images/ekcalc2.png"
+    }
+]

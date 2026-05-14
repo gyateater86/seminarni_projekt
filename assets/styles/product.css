@@ -11,3 +11,10 @@
     margin-bottom: 40px;
 
 }
+
+.header-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}

@@ -12,9 +12,27 @@
 
 }
 
+.header-image-box {
+  position: fixed;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1200px;
+  z-index: 0;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+}
+
 .header-image {
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 0;
+  width: 150%;
+  margin-left: -25%;
+  height: auto;
+  display: block;
+  opacity: 0.6;
 }

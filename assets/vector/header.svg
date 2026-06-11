@@ -8,6 +8,48 @@
    id="svg51"
    style="filter: hue-rotate(310deg);"
    xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes blade-in {
+      from {
+        opacity: 0;
+        transform: rotate(38deg);
+      }
+      to {
+        opacity: 1;
+        transform: rotate(0deg);
+      }
+    }
+
+    @keyframes fan-spin {
+      from { transform: rotate(0deg);   opacity: 1; }
+      to   { transform: rotate(360deg); opacity: 1; }
+    }
+
+    #g13 path {
+      transform-box: view-box;
+      transform-origin: 1210px 390px;
+      opacity: 0;
+      animation:
+        blade-in 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards,
+        fan-spin  12s linear 3.0s infinite;
+    }
+
+    /* blade-in delays — 0.18s mezera = výraznější rozevření */
+    #path13 { animation-delay: 0.00s, 3.0s; }
+    #path12 { animation-delay: 0.18s, 3.0s; }
+    #path11 { animation-delay: 0.36s, 3.0s; }
+    #path10 { animation-delay: 0.54s, 3.0s; }
+    #path9  { animation-delay: 0.72s, 3.0s; }
+    #path8  { animation-delay: 0.90s, 3.0s; }
+    #path7  { animation-delay: 1.08s, 3.0s; }
+    #path6  { animation-delay: 1.26s, 3.0s; }
+    #path5  { animation-delay: 1.44s, 3.0s; }
+    #path4  { animation-delay: 1.62s, 3.0s; }
+    #path3  { animation-delay: 1.80s, 3.0s; }
+    #path2  { animation-delay: 1.98s, 3.0s; }
+    #path1  { animation-delay: 2.16s, 3.0s; }
+  </style>
+
   <g
      clip-path="url(#clip0_1439_19843)"
      id="g13">

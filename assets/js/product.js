@@ -1,6 +1,6 @@
 const loadProduct = async () => {
     const params = new URLSearchParams(document.location.search);
-    const id = parseInt(params.get('id'));
+    const id = parseInt(params.get('id')) || 1;
 
     try {
         const response = await fetch('./assets/json/products.json');

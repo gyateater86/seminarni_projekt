@@ -2,82 +2,226 @@
     {
         "id": 1,
         "name": "EkoCalc",
-        "description": "Rychlá ekonomická kalkulačka pro každého",
+        "description": "Rychlá ekonomická kalkulačka pro každého — vytvořte výkaz, porovnejte scénáře a exportujte reporty během pár sekund.",
         "price": 199.99,
         "image": "assets/images/ekcalc1.png",
         "features": [
             {
                 "title": "V jednoduchosti je krása",
-                "text": "Intuitivní rozhraní navržené tak, aby každý zaměstnanec zvládl práci bez školení."
+                "text": "Intuitivní rozhraní navržené tak, aby každý zaměstnanec zvládl práci bez školení. Žádné zbytečné tlačítka, jen to co potřebujete."
             },
             {
                 "title": "Sledujte váš růst odkudkoliv",
-                "text": "Přístup k datům z jakéhokoli zařízení v reálném čase — kanceláře, mobilu nebo tabletu."
+                "text": "Přístup k datům z jakéhokoli zařízení v reálném čase — kanceláře, mobilu nebo tabletu. Synchronizace probíhá automaticky na pozadí."
             },
             {
                 "title": "Zabezpečení na prvním místě",
-                "text": "Šifrovaná komunikace a pravidelné zálohy chrání vaše finanční data 24/7."
+                "text": "Šifrovaná komunikace a pravidelné zálohy chrání vaše finanční data 24/7. Splňujeme GDPR a ISO 27001."
             }
         ],
         "benefits": {
             "heading": "Co vám přináší EkoCalc?",
-            "text": "Zjednodušte finanční výkaznictví, ušetřete čas a mějte přehled o ekonomice vaší firmy na jednom místě."
+            "text": "Zjednodušte finanční výkaznictví, ušetřete čas a mějte přehled o ekonomice vaší firmy na jednom místě. Průměrný zákazník ušetří 6 hodin týdně na manuálním zpracování dat."
         }
     },
     {
         "id": 2,
         "name": "SynapseSklad",
-        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
+        "description": "Skladové hospodářství v reálném čase — sledujte zásoby, přijímejte objednávky a automaticky doplňujte zboží bez papírování.",
         "price": 299.99,
-        "image": "assets/images/ekcalc2.png"
+        "image": "assets/images/ekcalc2.png",
+        "features": [
+            {
+                "title": "Přehled zásob v reálném čase",
+                "text": "Aktuální stav skladu vidíte okamžitě — počty kusů, lokace, šarže i expirace. Žádné dohledávání v tabulkách."
+            },
+            {
+                "title": "Automatické naskladnění",
+                "text": "Nastavte minimální zásoby a systém sám vytvoří objednávku u dodavatele, jakmile zboží klesne pod limit."
+            },
+            {
+                "title": "Napojení na fakturaci",
+                "text": "SynapseSklad komunikuje s EkoCalc a FS2 — výdej zboží automaticky generuje dodací list i fakturu bez dvojí práce."
+            }
+        ],
+        "benefits": {
+            "heading": "Sklad pod kontrolou, vždy.",
+            "text": "Konec zbytečným ztrátám z předzásobení nebo výpadků z podstavu. SynapseSklad drží váš sklad v optimálním stavu a ušetří průměrně 40 % času stráveného inventurou."
+        }
     },
     {
         "id": 3,
         "name": "CashFlow",
-        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
-        "price": 299.99,
-        "image": "assets/images/ekcalc2.png"
+        "description": "Predikce a monitoring cashflow pro malé i střední firmy — vždy víte, kolik peněz bude na účtu za 30, 60 nebo 90 dní.",
+        "price": 249.99,
+        "image": "assets/images/ekcalc2.png",
+        "features": [
+            {
+                "title": "Predikce na 90 dní dopředu",
+                "text": "Algoritmus analyzuje vaše historické pohyby a plánované faktury a s přesností 94 % předpoví stav účtu na příštích 90 dní."
+            },
+            {
+                "title": "Přímé napojení na banku",
+                "text": "Transakce se importují automaticky přes Open Banking API. Podporujeme Fio, ČSOB, Komerční banku i Raiffeisenbank."
+            },
+            {
+                "title": "Upozornění na výkyvy",
+                "text": "Jakmile predikce ukáže riziko záporného zůstatku, dostanete notifikaci e-mailem nebo SMS s dostatečným předstihem."
+            }
+        ],
+        "benefits": {
+            "heading": "Rozhodujte se na základě dat, ne střev.",
+            "text": "CashFlow vám dá jistotu při plánování investic, výplat i splatnosti dodavatelů. Žádné nepříjemné překvapení na konci měsíce — jen přehledné grafy a včasné varování."
+        }
     },
     {
         "id": 4,
-        "name": "Zamestnaci",
-        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
-        "price": 299.99,
-        "image": "assets/images/ekcalc2.png"
+        "name": "Zaměstnanci",
+        "description": "HR a docházkový systém pro moderní firmy — evidence zaměstnanců, dovolené, směny a výplatní pásky na jednom místě.",
+        "price": 349.99,
+        "image": "assets/images/ekcalc2.png",
+        "features": [
+            {
+                "title": "Docházka bez čipů a papírů",
+                "text": "Zaměstnanci se přihlašují přes mobilní aplikaci nebo webový portál. GPS ověření zajistí, že příchod proběhl skutečně na pracovišti."
+            },
+            {
+                "title": "Schvalování dovolených online",
+                "text": "Zaměstnanec podá žádost, nadřízený schválí jedním kliknutím a systém automaticky aktualizuje plán směn i zůstatek dovolené."
+            },
+            {
+                "title": "Výplatní pásky bez účetní",
+                "text": "Zadejte odpracované hodiny a přesčasy — systém spočítá hrubou mzdu, odvody i čistou mzdu a vygeneruje PDF pásku připravenou k podpisu."
+            }
+        ],
+        "benefits": {
+            "heading": "HR, které zvládne každý manažer.",
+            "text": "Ušetřete hodiny administrativy každý měsíc. Zaměstnanci mají vše v jedné aplikaci, HR oddělení má plný přehled a vy máte klid. Průměrná úspora 8 hodin měsíčně na HR agendu."
+        }
     },
     {
         "id": 5,
         "name": "Access Professional",
-        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
-        "price": 299.99,
-        "image": "assets/images/ekcalc2.png"
+        "description": "Pokročilý systém pro správu přístupů a oprávnění — kdo smí co vidět, upravovat nebo exportovat ve vašich firemních systémech.",
+        "price": 399.99,
+        "image": "assets/images/ekcalc2.png",
+        "features": [
+            {
+                "title": "Granulární oprávnění",
+                "text": "Nastavte přesně kdo vidí které dokumenty, reporty nebo moduly — na úrovni role, oddělení nebo jednotlivého uživatele."
+            },
+            {
+                "title": "Jednorázový přístup a hosté",
+                "text": "Vygenerujte časově omezený přístup pro auditora nebo externího partnera bez nutnosti zakládat plný uživatelský účet."
+            },
+            {
+                "title": "Audit log každé akce",
+                "text": "Kompletní záznam kdo, kdy a co změnil. Nezbytné pro compliance, SOC 2 audity i interní kontroly."
+            }
+        ],
+        "benefits": {
+            "heading": "Bezpečnost bez kompromisů.",
+            "text": "Access Professional eliminuje riziko úniku dat způsobené chybně nastavenými právy. Plná viditelnost nad tím, kdo má přístup k čemu — a okamžité odebrání přístupu při odchodu zaměstnance."
+        }
     },
     {
         "id": 6,
-        "name": "B2B",
-        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
-        "price": 299.99,
-        "image": "assets/images/ekcalc2.png"
+        "name": "B2B portál",
+        "description": "Velkoobchodní samoobslužný portál pro vaše partnery — objednávky, ceníky a faktury bez jediného telefonátu.",
+        "price": 499.99,
+        "image": "assets/images/ekcalc2.png",
+        "features": [
+            {
+                "title": "Ceníky na míru každému partnerovi",
+                "text": "Každý B2B partner vidí pouze svůj individuální ceník s dohodnutými slevami a podmínkami. Změna ceny proběhne okamžitě pro všechny nebo vybrané skupiny."
+            },
+            {
+                "title": "Online objednávky 24/7",
+                "text": "Partneři objednávají sami přes zabezpečený portál kdykoliv — bez čekání na obchodního zástupce nebo odpověď na e-mail."
+            },
+            {
+                "title": "Automatická fakturace objednávek",
+                "text": "Po potvrzení objednávky se automaticky vystaví faktura, odečtou zásoby ze skladu a odešle notifikace o expedici."
+            }
+        ],
+        "benefits": {
+            "heading": "Méně telefontů, více objednávek.",
+            "text": "Firmy používající B2B portál zaznamenávají průměrně 34% nárůst objemu objednávek a 60% pokles administrativní zátěže obchodního oddělení. Partneři objednávají rychleji, vy dodáváte spolehlivěji."
+        }
     },
     {
         "id": 7,
-        "name": "RS3",
-        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
-        "price": 299.99,
-        "image": "assets/images/ekcalc2.png"
+        "name": "RS3 — Rezervační systém",
+        "description": "Online rezervační systém třetí generace — kalendář, platby předem, SMS připomínky a synchronizace s Google Calendar.",
+        "price": 229.99,
+        "image": "assets/images/ekcalc2.png",
+        "features": [
+            {
+                "title": "Veřejný rezervační formulář",
+                "text": "Vložte rezervační widget na svůj web nebo sdílejte přímý odkaz. Zákazník si sám vybere termín, službu i zaměstnance."
+            },
+            {
+                "title": "Automatické SMS a e-mail připomínky",
+                "text": "Systém pošle připomínku 24 hodin a 1 hodinu před termínem. Počet no-show klientů klesá průměrně o 62 %."
+            },
+            {
+                "title": "Platby předem přes kartu",
+                "text": "Volitelná záloha nebo plná platba předem přes platební bránu. Peníze máte na účtu dřív, než zákazník přijde."
+            }
+        ],
+        "benefits": {
+            "heading": "Plný kalendář, žádné no-show.",
+            "text": "RS3 funguje jako váš recepční, který pracuje nonstop. Zákazníci rezervují sami, vy dostáváte platby předem a na termín dorazí díky automatickým připomínkám 38 % více lidí než dřív."
+        }
     },
     {
         "id": 8,
-        "name": "FS2",
-        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
-        "price": 299.99,
-        "image": "assets/images/ekcalc2.png"
+        "name": "FS2 — Fakturační systém",
+        "description": "Fakturace druhé generace — vystavte fakturu za 30 vteřin, hlídejte splatnosti a propojte banku i účetnictví automaticky.",
+        "price": 179.99,
+        "image": "assets/images/ekcalc2.png",
+        "features": [
+            {
+                "title": "Faktura za 30 vteřin",
+                "text": "Vyberte klienta, přidejte položky, klikněte Odeslat. Systém vyplní IBAN, variabilní symbol i QR platbu automaticky."
+            },
+            {
+                "title": "Automatické upomínky",
+                "text": "Po splatnosti faktura sama posílá upomínky e-mailem v nastavených intervalech — zdvořile, ale důsledně."
+            },
+            {
+                "title": "Párovanie plateb s bankou",
+                "text": "Příchozí platby se automaticky spárují s otevřenými fakturami. Přehled pohledávek je vždy aktuální bez ruční práce."
+            }
+        ],
+        "benefits": {
+            "heading": "Fakturujte rychle, dostávejte zaplaceno včas.",
+            "text": "Zákazníci FS2 dostávají zaplaceno v průměru o 11 dní dříve díky automatickým upomínkám a QR platbám. Ušetřete hodiny měsíčně — od vystavení po zaúčtování vše proběhne samo."
+        }
     },
     {
         "id": 9,
         "name": "HomeAssistant Golang SDK",
-        "description": "Pokročilá ekonomická kalkulačka pro profesionály",
-        "price": 299.99,
-        "image": "assets/images/ekcalc2.png"
+        "description": "Open-source SDK pro integraci Home Assistant s backendovými službami v Go — rychlé, typově bezpečné a produkčně prověřené.",
+        "price": 0,
+        "image": "assets/images/ekcalc2.png",
+        "features": [
+            {
+                "title": "Plně typované Go API",
+                "text": "Všechny entity Home Assistant jsou modelovány jako Go struktury s kompletní nápovědou v IDE. Žádné guessování JSON klíčů."
+            },
+            {
+                "title": "WebSocket i REST klient",
+                "text": "SDK podporuje real-time WebSocket subscriptions pro stav entit i klasické REST volání — vyberte si podle use case."
+            },
+            {
+                "title": "Připraveno pro produkci",
+                "text": "Automatická reconnect logika, context cancellation a strukturované logování. Nasazené v produkci u více než 200 domácností."
+            }
+        ],
+        "benefits": {
+            "heading": "Golang + Home Assistant. Konečně.",
+            "text": "Přestaňte psát vlastní HTTP wrappery a parsovat YAML. SDK vám dá čisté Go rozhraní pro čtení i ovládání všech zařízení v Home Assistant — a je to open-source, takže zdarma navždy."
+        }
     }
 ]

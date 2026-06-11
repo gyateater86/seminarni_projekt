@@ -1,10 +1,28 @@
 [
     {
         "id": 1,
-        "name": "EkoCalc 1",
+        "name": "EkoCalc",
         "description": "Rychlá ekonomická kalkulačka pro každého",
         "price": 199.99,
-        "image": "assets/images/ekcalc1.png"
+        "image": "assets/images/ekcalc1.png",
+        "features": [
+            {
+                "title": "V jednoduchosti je krása",
+                "text": "Intuitivní rozhraní navržené tak, aby každý zaměstnanec zvládl práci bez školení."
+            },
+            {
+                "title": "Sledujte váš růst odkudkoliv",
+                "text": "Přístup k datům z jakéhokoli zařízení v reálném čase — kanceláře, mobilu nebo tabletu."
+            },
+            {
+                "title": "Zabezpečení na prvním místě",
+                "text": "Šifrovaná komunikace a pravidelné zálohy chrání vaše finanční data 24/7."
+            }
+        ],
+        "benefits": {
+            "heading": "Co vám přináší EkoCalc?",
+            "text": "Zjednodušte finanční výkaznictví, ušetřete čas a mějte přehled o ekonomice vaší firmy na jednom místě."
+        }
     },
     {
         "id": 2,

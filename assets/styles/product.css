@@ -1,36 +1,32 @@
-.value-item {
-    margin-bottom: 20px;
-    padding: 10px;
-    border-bottom: 1px solid black;
-
+/* ── Product hero device mockup ── */
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    border-radius: 2.5rem;
+    background-color: #e0e8f0;
+    border: 1px solid var(--border);
 }
 
-.row {
-    margin-bottom: 40px;
-
+.product-device-2 {
+    right: 20%;
+    bottom: -20%;
+    background-color: #c8d8e8;
 }
 
-.header-image-box {
-  position: fixed;
-  top: -200px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  max-width: 1200px;
-  z-index: 0;
-  pointer-events: none;
-  overflow: visible;
+/* ── Device img (features sekce) ── */
+.device-img {
+    margin-top: 1.5rem;
+    border-radius: var(--radius-md);
+    overflow: hidden;
 }
 
-.container {
-  position: relative;
-  z-index: 2;
-}
-
-.header-image {
-  width: 180%;
-  margin-left: -40%;
-  height: auto;
-  display: block;
-  opacity: 5;
+/* ── Why calc / benefits ── */
+.why-calc .benefits {
+    background: var(--surface);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    align-items: center;
 }

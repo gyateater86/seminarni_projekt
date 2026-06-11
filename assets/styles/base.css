@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-primary);
+    line-height: var(--line-height);
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+    line-height: var(--line-height-tight);
+}
+
+p {
+    color: var(--text-secondary);
+}
+
+main section {
+    padding-bottom: 5rem;
+}
